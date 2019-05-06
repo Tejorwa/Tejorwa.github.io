@@ -1,0 +1,10 @@
+<h1> Installation . </h1>
+<body>
+
+If you want to be able to modify the code yourself, please fork/clone this repository onto your own computer and install directly from that editable package. For example, this might look like:
+
+git clone https://github.com/zkbt/transit2pi-experiments.git
+cd transit2pi-experiments/
+pip install -e .
+This will link the installed version of the transit2pi package to your local repository. Changes you make to the code in the repository should be reflected in the version Python sees when it tries to import transit2pi.
+</body>
