@@ -1,1 +1,13 @@
 //Here I will add my cv in pdf format and upload it to the site later. 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test CV Webpage Embedded PDF</title>
+</head>
+<body>
+<object width="500" height="500" data="C:\Users\twashington\Downloads\Taylor_Test_Pdf.pdf"></object>
+</body>
+</html>
