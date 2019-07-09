@@ -1,6 +1,6 @@
 name: Taylor Washington, Nerdy Astronomer
 markdown: kramdown
-theme: jekyll-theme-midnight
+theme: jekyll-theme-minimal
 
 
 permalink: /blog/:year/:month/:day/:title
