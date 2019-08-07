@@ -4,8 +4,11 @@
                 <title style = "text-align:center;"> Taylor J Washington, Nerdy Astronomer</title>
                 <!-- link to main stylesheet -->
                 <link rel="stylesheet" type="text/css" href="/css/main.css">
-
-        </head>
+<style>
+body { background-image: url("https://webgradients.com/public/webgradients_png/070%20Aqua%20Splash.png");}
+</style>
+</head>
+     ]
 
 
 
@@ -16,7 +19,7 @@
                          margin: 0;
                          padding: 0;
                         overflow: hidden;
-                         background-color: #333;
+                         background: #c0392b;
                         }
                         li {
                          float: left;
@@ -31,8 +34,10 @@
                         li a:hover:not(.active) {
                         background-color: #111;
                         }
-                      
-
+                       { background: #c0392b;  /* fallback for old browsers */
+                        background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+                        background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                             }
                         .active {
                          background-color: #4CAF50;">
                         <li><a style = "color: white;" href="/home">Home</a></li>
