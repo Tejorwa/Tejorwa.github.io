@@ -1,19 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title> Summary about me</title>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 600px;
+  background-color: light blue;
+}
+
+#section2 {
+  height: 600px;
+  background-color: light blue;
+}
+</style>
 </head>
 <body>
 
-<p> Hello there! I am Taylor and this is my webpage. Here you will learn alittle about me and what I do. I am an Astronomer and Python Developer. </p>
+<h1>About Taylor Washington</h1>
 
-<p> I love to study exoplanets, blackholes, galaxies , mathematics, and software engineering. In my sparetime, I hike, ski, water ski, 
-, run, play soccer, and play with my pup Riley! [Pictured below with me]. 
+<div class="main" id="section1">
+  <h2>Me</h2>
+  <img src=”IMG_7359.jpg” alt=”TJ”></img>
+  <p>Hello there! I am Taylor and this is my webpage. Here you will learn alittle about me and what I do. I am an Astronomer and Python Developer. </p>
+    
+  <a href="#section2">Adventures</a>
+  <p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+</div>
 
-<style>
-body { background-image: url("https://webgradients.com/public/webgradients_png/092%20Japan%20Blush.png");}
-</style>
+<div class="main" id="section2">
+  <h2>Adventures</h2>
+    <p> I love to study exoplanets, blackholes, galaxies , mathematics, and software engineering. In my sparetime, I hike, ski, water ski, 
+, run, play soccer, and play with my pups Riley and Stormy! </p>
+  <a href="#section1">Back to Top</a>
+    
+</div>
 
 </body>
 </html>
